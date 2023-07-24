@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body{
+background-color: hsl(0, 0%, 94%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.container{
+    position: relative;
+    margin-top: 50px;
+    max-height: 100vh;
+    max-width: 100%;
+    width: 800px;
+    height: 650px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    border-bottom-right-radius: 200px;
+}
+
+
+.input-control{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#form{
+display: flex;
+flex-direction: row;
+gap: 40px;
+margin-left: 40px;
+margin-top: 50px;
+font-weight: 800;
+}
+
+input{
+height: 60px;
+width: 150px;
+border-radius: 10px;
+font-size: 30px;
+border: 1px solid;
+font-weight: 900;
+}
+
+input::target-text{
+font-size: 40px;
+}
+
+
+
+input::placeholder{
+font-size: 30px;
+padding-left: 20px;
+}
+
+.head{
+color: hsl(0, 1%, 44%);
+}
+
+/*middle-part started*/
+
+
+.middle-part{
+margin-top: 60px;
+}
+
+hr{
+width: 600px;
+margin-left: 40px;
+}
+
+.my-btn{
+position: absolute;
+left: 80%;
+bottom: 63%;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: hsl(259, 100%, 65%);
+border: none;
+}
+
+.my-btn:hover{
+cursor: pointer;
+background-color: hsl(0, 0%, 8%);
+}
+
+
+/* middle-part finished*/
+
+
+.footer{
+display: flex;
+flex-direction: column;
+}
+
+.report{
+display: flex;
+flex-direction: row;
+margin-left: 40px;
+}
+
+.number{
+margin-top: 20px;
+font-size: 80px;
+font-weight: 900;
+color: hsl(259, 100%, 65%);
+}
+
+.date{
+margin-top: 20px;
+font-size: 80px;
+font-weight: 900;
+margin-left: 20px;
+}
+
+.error{
+color: #ef233c;
+outline-color: #ef233c;
+border-color: #ef233c;
+}
